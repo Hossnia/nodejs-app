@@ -14,7 +14,7 @@ pipeline{
 
         stage("package"){
         steps{
-            sh 'npm package'
+            sh 'npm pack'
         }
     }
     }
